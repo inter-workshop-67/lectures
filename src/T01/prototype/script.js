@@ -39,7 +39,7 @@ function submitHandler() {
   // Do not send if message is empty
   if (!message) return;
 
-  console.log("")
+
 
   // Sending
   const url = `${PROXY_SERVER}/${TELEGRAM_NOTIFY_SERVER}`;
@@ -52,9 +52,8 @@ function submitHandler() {
     headers: {
       "Content-Type": "application/json",
       origin: "localhost",
-      "Access-Control-Allow-Origin": "localhost"
     },
-    body: body,
+    body: JSON.stringify(body),
   })
     .then(() => {
       alert(`Sent message: ${message}`);
