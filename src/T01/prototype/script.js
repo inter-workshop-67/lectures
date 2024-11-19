@@ -14,17 +14,11 @@
 //   alert("พี่ขาอย่าทับหนู");
 // });
 
-
-
-// Paste your token here
-// const LINE_NOTIFY_TOKEN = "A0UEH.....";
+// Telegram
 const TELEGRAM_BOT_KEY = "";
-const CHAT_ID = ""
-// Chose stickers here, see https://developers.line.biz/en/docs/messaging-api/sticker-list/
-const stickerPackageId = 6370;
-const stickerId = 11088016;
+const CHAT_ID = "";
 
-// Input proxy server here
+// Proxy server
 const PROXY_SERVER = "";
 
 // Code
@@ -39,13 +33,11 @@ function submitHandler() {
   // Do not send if message is empty
   if (!message) return;
 
-
-
   // Sending
   const url = `${PROXY_SERVER}/${TELEGRAM_NOTIFY_SERVER}`;
   const body = {
-    "chat_id": CHAT_ID,
-    "text": message
+    chat_id: CHAT_ID,
+    text: message,
   };
   fetch(url, {
     method: "POST",
