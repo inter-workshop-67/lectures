@@ -9,7 +9,12 @@
 - [HTML](/src/T01/T01.html)
 - [PDF](/src/T01/T01.pdf)
 
-## Topic 2: React
+## Topic 2: Web Application with React
 
 - [HTML](/src/T02/T02.html)
 - [PDF](/src/T02/T02.pdf)
+
+## Topic 3: AI-Powered Application with React
+
+- [HTML](/src/T03/T03.html)
+- [PDF](/src/T03/T03.pdf)
