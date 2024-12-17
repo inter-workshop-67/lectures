@@ -19,7 +19,7 @@
 - [HTML](/src/T03/T03.html)
 - [PDF](/src/T03/T03.pdf)
 
-## Topic 4: Exploring blockchain technology
+## Topic 4: Blockchain-Powered Application with React
 
 - [HTML](/src/T04/T04.html)
 - [PDF](/src/T04/T04.pdf)
